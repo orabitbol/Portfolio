@@ -1,5 +1,5 @@
 .technologies_container {
-    background-color: var(--light-color);
+    background-color: #142c14;
     color: var(--nav-color);
     display: flex;
     flex-direction: column;
@@ -26,17 +26,17 @@
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    border-bottom: 5px solid var(--nav-color);
+    border-bottom: 5px solid black;
     transition: all 0.1s;
   }
   
   .tech_icons {
     height: 70px;
-    background-color: var(--light-color);
+    background-color: #ffffff;
     border-radius: 50%;
   }
   
   .tech_card:hover {
-    background-color: var(--font-color-hover);
+    background-color: #61c061;
     transform: scale(1.05);
   }

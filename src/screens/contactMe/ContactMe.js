@@ -1,6 +1,8 @@
 import React from 'react'
 import './contactMe.css'
 import { navigationLinks } from '../../helpers/navigationLinks';
+import SocialMedia from './SocialMedia';
+
 
 const createLinks = () => {
     return navigationLinks.map((e, idx) => (
@@ -14,9 +16,12 @@ const ContactMe = () => {
             <div className='contactMe_data_links'>
                 <div>
                     <p> Beer Sheva , IS</p>
-                    <p> Or Abitbol </p>
                     <p> orabitbol@gmail.com </p>
                     <p> 050-4222664</p>
+                    <SocialMedia/>
+                </div>
+                <div>
+               
                 </div>
                 <div>
                     {createLinks()}

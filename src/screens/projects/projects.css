@@ -1,0 +1,20 @@
+/* 
+.project{
+    border-style: solid;
+    border-width: 5px;
+}
+img {
+    
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 350px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+     font-size: 18px;
+     
+  }
+   */

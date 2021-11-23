@@ -14,8 +14,6 @@ const Header = () => {
                     "Front-end developer",
                     "Back-end developer",
                     "Full stack developer",
-                    "Or!",
-                    '"a coder"',
                     " ",
                     " "]}
                 typeSpeed={40}

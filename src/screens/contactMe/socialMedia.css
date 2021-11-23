@@ -1,0 +1,16 @@
+.social-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+.social{
+    flex: 1;
+}
+.facebook{
+    flex: 1;
+}
+.instagram{
+    flex: 1;
+}

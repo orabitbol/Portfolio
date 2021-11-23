@@ -4,13 +4,13 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { navigationLinks } from '../helpers/navigationLinks'
 
-const createLinks = ()=> {
+const createLinks = () => {
   return navigationLinks.map((e, idx) => (
     <Nav.Link key={idx} href={e.ref}>{e.name}</Nav.Link>
   ))
 }
 
-function NavigationBar() {
+const NavigationBar = () => {
   return (
     <div id="home">
       <Navbar className="navigation_container" style={{
